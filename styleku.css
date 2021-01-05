@@ -1,0 +1,213 @@
+/*DESAIN NAVBAR*/
+.navbar ul{
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.navbar li{
+    float: left;
+    margin-left: 20px;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: #111;
+}
+/*DESAIN KONTAINER*/
+body{
+    background-color: #ece9e9;
+}
+.kontainer{
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+/*DESAIN SIDENAV*/
+.kontainer .sidenav{
+    float: left;
+}
+.kontainer .sidenav ul{
+    list-style-type: none;
+    background-color: white;
+    position: fixed;
+    overflow: auto;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    height: 63%;
+    border: 2px solid white;
+}
+.kontainer .sidenav li{
+    border-bottom: 3px solid #ece9e9;
+}
+.kontainer .sidenav li a{
+    text-align: left;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 25px 35px;
+}
+.kontainer .sidenav li a.active{
+    background-color:  #008CBA;
+    color: white;
+}
+.kontainer .sidenav li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+
+/*DESAIN KONTEN*/
+.kontainer .konten{
+    background-color: white;
+    float: right;
+    width: 83%;
+    margin-left: 20px;
+    
+}
+.kontainer .konten .sidebar h3{
+    text-align: left;
+    margin-left: 10px;
+}
+.kontainer .konten .persen{
+    display: flex;
+}
+
+.kontainer .konten .persen .persen1{
+    margin-left: 10px;
+    border-radius: 25px;
+    background: red;
+    padding: 20px; 
+    width: 150px;
+    height: 80px;
+}
+.kontainer .konten .persen .persen1 p{
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+.kontainer .konten .persen .persen2{
+    margin-left: 10px;
+    border-radius: 25px;
+    background: yellow;
+    padding: 20px; 
+    width: 150px;
+    height: 80px; 
+}
+.kontainer .konten .persen .persen2 p{
+    color: black;
+    text-align: center;
+    margin-top: auto;
+}
+.kontainer .konten .persen .persen3{
+ 
+    margin-left: 10px;
+    border-radius: 25px;
+    background: #008CBA;
+    padding: 20px; 
+    width: 150px;
+    height: 80px; 
+}
+.kontainer .konten .persen .persen3 p{
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.kontainer .konten .data p{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/*DESAIN FORM KRITERIA*/
+.kontainer .konten .dkriteria{
+    margin-left: 10px;
+}
+.kontainer .konten .dkriteria table, td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.kontainer .konten .dkriteria table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.kontainer .konten .dkriteria th, td{
+    padding: 15px;
+}
+
+/*DESAIN FORM KAMPUS*/
+.kontainer .konten .tbhkampus p, label{
+    margin-left: 10px;
+}
+.kontainer .konten .tbhkampus input{
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.kontainer .konten .tbhkampus input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.kontainer .konten .tbhkampus input[type=submit]:hover{
+    background-color: #45a049;
+}
+.kontainer .konten .dtakampus p{
+    margin-left: 10px;
+}
+.kontainer .konten .dtakampus table, td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.kontainer .konten .dtakampus table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.kontainer .konten .dtakampus th, td{
+    padding: 15px;
+}
+
+/*DESAIN FORM PENILAIAN*/
+.kontainer .konten .plhkampus {
+    margin-left: 10px;
+}
+.kontainer .konten .plhkampus select{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:  #008CBA;
+    color: white;
+    
+}
+.kontainer .konten .plhnilai p{
+    margin-left: 10px;
+}
+.kontainer .konten .plhnilai table, td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.kontainer .konten .plhnilai table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.kontainer .konten .plhnilai th, td{
+    padding: 15px;
+}
+.kontainer .konten .plhnilai input{
+    border: 1px solid white;
+}
